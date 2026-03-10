@@ -1,0 +1,29 @@
+{
+  "name": "polyglot-data-export-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "fast-csv": "^5.0.5",
+    "parquetjs": "^0.11.2",
+    "pg": "^8.20.0",
+    "pg-query-stream": "^4.14.0",
+    "uuid": "^13.0.0",
+    "xmlbuilder": "^15.1.1",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
